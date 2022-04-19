@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import React from 'react';
 
-import Modal from './modal'
+
 
 import './App.css';
 
