@@ -3,9 +3,9 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
-import Modal from './modal'
+import Modal from './components/Modal/modal'
 
-import './App.css';
+import './Intro.css';
 
 
 
@@ -19,10 +19,10 @@ function Home() {
   
 
   return (
-    <div className="App" id='Home'>
+    <div className="Intro" id='Home'>
        
       <div className='nav'>
-          <a href='#' className='navBtn'>Home</a>
+          <a href='#Intro' className='navBtn'>Home</a>
           <a href='#'className='navBtn' >About</a>
           <a  href='#' className='navBtn'>Skills</a>
           <a href='#'  className='navBtn'>Contact</a>
@@ -35,7 +35,7 @@ function Home() {
 
       <Fade right>
           <p className='subText'>
-          Hello, my name is Madelaine Trujillo, pronounced Mad-deh-lynn True-he-yo and I use she/her/hers pronouns. _Usually_ I go by Maddie but I honestly have no preference and am always open to some new cool nicknames.
+          Hello, my name is Madelaine Trujillo, pronounced Mad-deh-lynn True-he-yo and I use she/her/hers pronouns. Usually I go by Maddie but I honestly have no preference and am always open to some new cool nicknames.
           </p>
       </Fade>
 
