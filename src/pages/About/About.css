@@ -1,0 +1,35 @@
+.About{
+    /* height: 100vh; */
+    background-color: #644E5B;
+    width: 100%;
+    display:inline-block;
+    overflow: auto;
+
+}
+.aboutTitle{
+    color: #fff;
+    margin: 0 5vw;
+    /* text-shadow: 4px 6px 4px #B598AB; */
+    padding-top: 5vh;
+    position: absolute;
+    z-index: 1000;
+}
+.aboutIntro{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    min-width: 100vw;
+}
+.aboutIntroImg{
+    max-height: 100vh;
+    opacity: 0.6;
+}
+.introDesc{
+    margin: 25vh 0 20vh 5vw;
+    font-size: 40px;
+    color: #fff;
+    max-width: 45vw;
+    font-weight: 200;
+}
+
+   

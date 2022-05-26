@@ -10,6 +10,8 @@
     "react-dom": "^18.0.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.4.4",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,8 +22,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

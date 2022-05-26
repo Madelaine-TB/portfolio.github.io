@@ -2,25 +2,16 @@
   text-align: center;
   background-color: #644E5B;
   height: 100vh;
-background-image: url(Images/bg.png);
+background-image: url(../../Images/bg.png);
 background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Gothic A1', sans-serif;
 }
-.nav{
-  display: flex;
-  color: #fff;
-  gap: 30px;
-  position: fixed;
-  top: 45px;
-  right: 135px;
 
-}
-.navBtn{
-  text-decoration: none;
-  color: #fff;
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 14px;
+.nav-container{
+  position: fixed;
+  right: 0;
+  z-index: 1000;
 }
 h1{
   font-size: 110px;
@@ -39,6 +30,8 @@ h1{
   font-size: 100px;
   border: none;
   text-shadow: 1.2px 1.2px #71393A;
+ 
+
 }
 
 .modalBtn{
@@ -53,6 +46,7 @@ h1{
   font-weight: 900;
   font-size: 30px;
   color: #91494B ;
+  z-index: 1000;
 }
 .subText{
   position: absolute;

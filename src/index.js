@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Intro from './Intro';
-import Page2 from './newPage'
+import Intro from './pages/Intro/Intro';
+import About from './pages/About/About';
+import Skills from "./pages/Skills/skills"
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Intro />
-    {/* <Page2 /> */}
+    <About/>
+    <Skills />
   </React.StrictMode>
 );
 

@@ -2,13 +2,10 @@ import { useState } from 'react';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-
-import Modal from './components/Modal/modal'
+import Nav from '../../components/Nav/nav-menu'
+import Modal from '../../components/Modal/modal'
 
 import './Intro.css';
-
-
-
 
 
 
@@ -19,14 +16,12 @@ function Home() {
   
 
   return (
-    <div className="Intro" id='Home'>
-       
-      <div className='nav'>
-          <a href='#Intro' className='navBtn'>Home</a>
-          <a href='#'className='navBtn' >About</a>
-          <a  href='#' className='navBtn'>Skills</a>
-          <a href='#'  className='navBtn'>Contact</a>
+    <div className="Intro" id='IntroSection'>
+      <div className='nav-container'>
+      <Nav />
       </div>
+     
+
         <h1>
           Hi,<br />
           Hey There,<br/>

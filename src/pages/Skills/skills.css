@@ -1,0 +1,17 @@
+.Skills{
+    height: 100vh;
+    background-color: #644E5B;
+    width: 100%;
+    /* background-image: url(../../Images/Rectangle\ 34.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+.skillsTitle{
+    color: #fff;
+    margin: 0 5vw;
+    /* text-shadow: 4px 6px 4px #B598AB; */
+    padding-top: 5vh;
+    position: absolute;
+    z-index: 1000;
+}

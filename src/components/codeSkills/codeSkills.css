@@ -1,0 +1,42 @@
+#codeSkills{
+background-color: bisque;
+position: relative;
+}
+.chart{
+    border-bottom: 12px solid black;
+    border-left: 12px solid black;
+    height: 60vh;
+    width: 40vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:   
+    repeat(8, 1fr);
+    grid-template-rows:repeat(10, 1fr) ;
+}
+.css{
+    grid-column: 1 / 2;
+    grid-row: 1/11;
+    background-color: aqua;
+
+}
+span{
+    position: absolute;
+    bottom: -5vh;
+    text-align: center;
+    
+}
+.html{
+    grid-column: 3 / 4;
+    grid-row: 4/11;
+    background-color: red;
+}
+.js{
+    grid-column: 5 / 6;
+    grid-row: 2/11;
+    background-color: yellow;
+}
+.react{
+    grid-column: 7 / 8;
+    grid-row: 3/11;
+    background-color: green;
+}
